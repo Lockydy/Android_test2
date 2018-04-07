@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:rowCount="6"
+    android:columnCount="3"
+    android:id="@+id/rooter"
+    android:orientation="horizontal"
+    >
+    <Button
+        android:id="@+id/one"
+        android:text="1"/>
+    <Button
+        android:id="@+id/two"
+        android:text="2" />
+    <Button
+        android:id="@+id/three"
+        android:text="3"/>
+    <Button
+        android:id="@+id/four"
+        android:text="4" />
+    <Button
+        android:id="@+id/five"
+        android:text="5" />
+    <Button
+        android:id="@+id/six"
+        android:text="6" />
+    <Button
+        android:id="@+id/seven"
+    android:text="7" />
+    <Button
+        android:id="@+id/eight"
+        android:text="8"/>
+    <Button
+        android:id="@+id/nine"
+        android:text="9"/>
+    <Button
+        android:id="@+id/zero"
+        android:text="0"/>
+    <Button
+        android:id="@+id/plus"
+        android:text="+"/>
+    <Button
+        android:id="@+id/minue"
+        android:text="-"/>
+    <Button
+        android:id="@+id/mult"
+        android:text="*"/>
+    <Button
+        android:id="@+id/spell"
+        android:text="/"/>
+
+    <Button
+        android:id="@+id/equal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="=" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="122dp"
+        android:layout_columnSpan="3"
+        android:layout_gravity="fill"
+        android:text="返回" />
+</GridLayout>
